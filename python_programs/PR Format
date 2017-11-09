@@ -1,0 +1,7 @@
+Description of the Change
+
+Sources API has been changed so that token words are generated while insertion of source. Autotoken API has been changed to only retrieve tokens from DB
+
+Why Should This Be In Core?
+
+This solves the existing issue of having to generate tokens every time Autotoken API is called.
